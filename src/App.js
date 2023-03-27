@@ -84,9 +84,7 @@ export default function App() {
   const [display, setDisplay] = useState(-1);
 
   function hoverd() {
-    // if (display == null) {
-    //   setDisplay(0);
-    // }else
+ 
     setDisplay(display + 1);
   }
 
@@ -127,7 +125,7 @@ export default function App() {
                         </div>
                       </div>
                     </td>
-                    {/* <td className="status_list col-3 col-sm-3 col-md-3 col-xl-3 col-xxl-3"> */}
+                   
                     {list.access == "Owner" ? (
                       <>
                         <td>
@@ -211,15 +209,7 @@ export default function App() {
         </div>
 
         <div className="right col-10 col-sm-10 col-md-10 col-lg-4 col-xl-4 col-xxl-4">
-          {/* {arr.map((data, i) => {
-            return (
-              <div className="box" key={i}>
-                <div className="image_right">
-                  <img src={data.img}></img>
-                </div>
-              </div>
-            );
-          })} */}
+
 
           {display == -1 ? null : (
             <div className="box">
