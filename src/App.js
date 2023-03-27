@@ -83,10 +83,7 @@ export default function App() {
 
   const [display, setDisplay] = useState(-1);
 
-  function hoverd() {
- 
-    setDisplay(display + 1);
-  }
+
 
   return (
     <>
