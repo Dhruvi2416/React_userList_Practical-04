@@ -1,17 +1,17 @@
-User_List UI
+# User_List UI
 
 It is a simple template that fetches user information from API with pagination.
 
-Getting Started:
+**Getting Started:**
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+React is a JavaScript library, based on components which helps to create a friendly UI. This is a simple template where user data is fetched and displayed on a seperate card while hovering on it. Also has a pagination which will fetch different user data while navigating on different page.
 
-Prerequisites:
+**Prerequisites:**
 
 
 npm (9.3.1 or above versions)
 
-Run the project locally
+**Run the project locally**
 
 Clone the project and install the dependencies:
 
@@ -25,7 +25,7 @@ $ git clone https://github.com/Dhruvi2416/React_userList_Practical-04.git
 In the project directory, you can run following command for installing dependencies present in the package.json.
 
 
- npm install
+ **npm install** 
 
 Runs the app in the development mode. By default, NODE_ENV is set to development
 npm start
@@ -42,7 +42,7 @@ Builds the app for production to the build folder. It correctly bundles React in
 npm run build
 
 
-ScreenShots:
+## ScreenShots:
 
 
 ![image](https://i.ibb.co/bKtWtMD/Screenshot-from-2023-03-28-13-14-55.png)
