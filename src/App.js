@@ -11,8 +11,9 @@ export default function App() {
   const [totalpage, setTotalPage] = useState(0);
 
   function handlePageChange(i) {
-    console.log(i);
+    
     setCurrentPage(i);
+    //fetching api and diplaying page according to the button clicked by user
     fetch(`https://reqres.in/api/users?page=${i}`)
       .then((response) => response.json())
       .then((json) => {
@@ -27,7 +28,7 @@ export default function App() {
         }
       });
   }
-
+// Will render at first time when componenet mounts
   useEffect(() => handlePageChange(1), []);
 
   return (
@@ -150,7 +151,7 @@ export default function App() {
               })}
             </tbody>
           </table>
-
+            {/* page navigation by onclicking the button*/}
           <div className="page_navigation">
             {[...Array(totalpage)].map((i, index) => (
               <button
@@ -165,7 +166,7 @@ export default function App() {
             ))}
           </div>
         </div>
-
+          {/* display card according to index number  */}
         <div className="right col-10 col-sm-10 col-md-10 col-lg-4 col-xl-4 col-xxl-4">
           {display == -1 ? null : (
             <div className="box">
