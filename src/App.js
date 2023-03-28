@@ -214,7 +214,13 @@ export default function App() {
                 <div className="image_right">
                   <img src={arr[display].img}></img>
                 </div>
-                <p>{arr[display].name}</p>
+
+                <div className="name d-flex">
+                  <h4>
+                    {arr[display].name}
+                  </h4>
+                  <div className="circle"></div>
+                </div>
                 <p>{arr[display].email}</p>
                 <h4>Your Plan: Standard </h4>
                 <button>Active User</button>
