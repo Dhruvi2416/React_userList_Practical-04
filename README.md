@@ -43,7 +43,13 @@ npm run build
 
 
 ScreenShots:
-![image](https://user-images.githubusercontent.com/122339608/228160399-c6698cda-d71b-4950-ad7b-81de7557c95e.png)
+
+
+![image](https://i.ibb.co/bKtWtMD/Screenshot-from-2023-03-28-13-14-55.png)
+![image](https://i.ibb.co/k2YkJfy/Screenshot-from-2023-03-28-13-11-12.png)
+![image](https://i.ibb.co/mcHzDdw/Screenshot-from-2023-03-28-13-16-04.png)
+
+
 
 
 
