@@ -1,7 +1,6 @@
-
 User_List UI
 
-It is a simple Static UI of user List with their details.
+It is a simple template that fetches user information from API with pagination.
 
 Getting Started:
 
@@ -44,8 +43,9 @@ npm run build
 
 
 ScreenShots:
-![image](https://user-images.githubusercontent.com/122339608/227785440-2124dfff-8d96-4db5-9661-219932ce30dd.png)
-![image](https://user-images.githubusercontent.com/122339608/227785473-9027d270-bedc-4f38-9568-600b38684091.png)
+![image](https://user-images.githubusercontent.com/122339608/228160399-c6698cda-d71b-4950-ad7b-81de7557c95e.png)
+
+
 
 
 
