@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import Profile_table from "./profile_data.jsx";
+import ProfileTable from "./componenets/ProfilData";
 
 export default function App() {
   // first empty array and then will set with the data given in api
@@ -33,7 +33,7 @@ export default function App() {
   return (
     <>
       <div className="container-fluid row">
-        <Profile_table
+        <ProfileTable
           arr={arr}
           currentpage={currentpage}
           totalpage={totalpage}

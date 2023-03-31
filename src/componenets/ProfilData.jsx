@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import Card from "./card";
+import Card from "./Card";
 
-export default function Profile_table(props) {
+export default function ProfileTable(props) {
   const [display, setDisplay] = useState(-1);
   return (
     <>
-      <div className="left_part col-10 col-sm-10 col-md-10 col-lg-8 col-xl-8 col-xxl-8">
+      <div className="left-part col-10 col-sm-10 col-md-10 col-lg-8 col-xl-8 col-xxl-8">
         <table className="table no-border">
           <thead>
             <tr>
@@ -23,14 +23,14 @@ export default function Profile_table(props) {
           <tbody>
             {props.arr.map((user_info, i) => {
               return (
-                <tr className="item_loop " key={i}>
+                <tr className="item-loop " key={i}>
                   <td>
                     <div
-                      className="name_list d-flex"
+                      className="name-list d-flex"
                       onMouseEnter={() => setDisplay(i)}
                       onMouseLeave={() => setDisplay(-1)}
                     >
-                      <div className="profile_pic">
+                      <div className="profile-pic">
                         <img src={user_info.avatar}></img>
                       </div>
                       <div className="info">
@@ -45,17 +45,17 @@ export default function Profile_table(props) {
                   {user_info.access == "Owner" ? (
                     <>
                       <td>
-                        <div className="owner_status">
+                        <div className="owner-status">
                           <h6>Active</h6>
                         </div>
                       </td>
                       <td>
-                        <div className="owner_access">
+                        <div className="owner-access">
                           <h6>Owner</h6>
                         </div>
                       </td>
                       <td>
-                        <div className="owner_lock">
+                        <div className="owner-lock">
                           <i className="fas fa-lock fa-xl"></i>
                         </div>
                       </td>
@@ -88,7 +88,7 @@ export default function Profile_table(props) {
                         </div>
                       </td>
                       <td>
-                        <div className="access_list ">
+                        <div className="access-list ">
                           <div className="dropdown">
                             <button
                               className="btn btn-secondary dropdown-toggle"
@@ -123,7 +123,7 @@ export default function Profile_table(props) {
           </tbody>
         </table>
         {/* page navigation by onclicking the button*/}
-        <div className="page_navigation">
+        <div className="page-navigation">
           {[...Array(props.totalpage)].map((i, index) => (
             <button
               key={index}
