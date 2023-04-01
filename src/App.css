@@ -13,7 +13,7 @@ body {
 .heading {
   padding-bottom: 10px;
 }
-
+/* to delete default lines insite table */
 .table > :not(caption) > * > * {
   border-bottom: none;
 }
