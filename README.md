@@ -46,12 +46,25 @@ If you want to run this project on production environment please type command:
 
 Open https://dreamy-fairy-9ad3ab.netlify.app/ to see this website which is hosted on Netlify.
 
-Launches the test runner in the interactive watch mode.
-npm test
-
 Build the website:
 
 **npm run build**
+
+## Steps to host on Netlify:
+
+To do a manual deploy to Netlify’s CDN:
+
+1. **npm install netlify-cli -g**
+2. **netlify deploy**
+Choose **build** as the path to deploy.
+
+3. To setup continuous delivery:
+
+    With this setup Netlify will build and deploy when you push to git or open a pull request:
+
+4. Start a new netlify project
+5. Pick your Git hosting service and select your repository
+6. Click Build your site
 
 ## ScreenShots:
 
