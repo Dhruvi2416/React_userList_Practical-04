@@ -28,7 +28,8 @@ In the project directory, you can run following command for installing dependenc
  **npm install** 
 
 Runs the app in the development mode. By default, NODE_ENV is set to development
-npm start
+
+**npm start**
 
 Open http://localhost:3000 to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 Note: Port 3000 by default
@@ -39,7 +40,7 @@ npm test
 
 Builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance. By default NODE_ENV is set to production. The build is minified and the filenames include the hashes. Your app is ready to be deployed! See the section about deployment for more information.
 
-npm run build
+**npm run build**
 
 
 ## ScreenShots:
