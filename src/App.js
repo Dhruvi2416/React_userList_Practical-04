@@ -13,7 +13,7 @@ export default function App() {
   function handlePageChange(i) {
     setCurrentPage(i);
     //fetching api and diplaying page according to the button clicked by user
-    fetch(process.env.REACT_APP_URL)
+    fetch(process.env.REACT_APP_URL+`page=${i}`)
       .then((response) => response.json())
       .then((json) => {
         setTotalPage(json.total_pages);
