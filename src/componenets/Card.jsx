@@ -5,8 +5,8 @@ export default function Card(props) {
       <div className="right col-10 col-sm-10 col-md-10 col-lg-4 col-xl-4 col-xxl-4">
         {props.display == -1 ? null : (
           <div className="box">
-            <div className="center_content d-flex">
-              <div className="image_right">
+            <div className="center-content d-flex">
+              <div className="image-right">
                 <img src={props.arr[props.display].avatar}></img>
               </div>
 
@@ -30,13 +30,13 @@ export default function Card(props) {
             </div>
 
             <div className="numbers d-flex">
-              <div className="clicks_reviewed">
+              <div className="clicks-reviewed">
                 <h3>2,450</h3>
                 <p>clicks reviewed</p>
               </div>
-              <div className="border_between"></div>
+              <div className="border-between"></div>
 
-              <div className="monthly_click">
+              <div className="monthly-click">
                 <h3>5000</h3>
                 <p>Monthly clicks</p>
               </div>
