@@ -1,10 +1,10 @@
 # User_List UI
 
-It is a simple template that fetches user information from API with pagination.
+
 
 **Getting Started:**
 
-React is a JavaScript library, based on components which helps to create a friendly UI. This is a simple template where user data is fetched and displayed on a seperate card while hovering on it. Also has a pagination which will fetch different user data while navigating on different page.
+
 
 **Prerequisites:**
 
@@ -22,7 +22,11 @@ $ git clone https://github.com/Dhruvi2416/React_userList_Practical-04.git
 
 In the project directory, you can run following command for installing dependencies present in the package.json.
 
+
+ **npm install**
+=======
 **npm install**
+
 
 Runs the app in the development mode. By default, NODE_ENV is set to development
 
@@ -71,7 +75,12 @@ Choose **build** as the path to deploy.
 
 3. To setup continuous delivery:
 
+## ScreenShots:
+![image](https://user-images.githubusercontent.com/122339608/227785440-2124dfff-8d96-4db5-9661-219932ce30dd.png)
+![image](https://user-images.githubusercontent.com/122339608/227785473-9027d270-bedc-4f38-9568-600b38684091.png)
+
     With this setup Netlify will build and deploy when you push to git or open a pull request:
+
 
 4. Start a new netlify project
 5. Pick your Git hosting service and select your repository

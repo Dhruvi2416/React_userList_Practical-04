@@ -128,6 +128,7 @@ input[type="range"] {
   /* //rotate degrees to get desired color */
 }
 
+
 .page-navigation {
   margin-left: 50%;
   padding: 10px;
@@ -137,6 +138,7 @@ input[type="range"] {
   margin: 5px;
 }
 
+
 .circle {
   margin-left: 4px;
   width: 7px;
@@ -144,3 +146,4 @@ input[type="range"] {
   border-radius: 50%;
   background-color: #4ba959;
 }
+
