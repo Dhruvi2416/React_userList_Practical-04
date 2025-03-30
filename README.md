@@ -28,13 +28,9 @@ Runs the app in the development mode. By default, NODE_ENV is set to development
 
 **npm start**
 
+
 If you want to run this project on static server please type command:
 
-**npm run static-server**
-
-If you want to run this project on development environment please type command:
-
-**npm run development**
 
 If you want to run this project on staging environment please type command:
 
